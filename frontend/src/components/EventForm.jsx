@@ -1,4 +1,6 @@
-import { useState } from "react";
+import React, { useState } from "react";
+import GoogleMap from "./GoogleMap";
+import GoogleMapComponent from "./GoogleMap";
 
 const EventForm = () => {
   const [name, setName] = useState("");
@@ -35,33 +37,48 @@ const EventForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        placeholder="Event Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-      <input
-        type="text"
-        placeholder="Event Detail"
-        value={detail}
-        onChange={(e) => setDetail(e.target.value)}
-      />
-      <input
-        type="number"
-        placeholder="Latitude"
-        value={lat}
-        onChange={(e) => setLat(e.target.value)}
-      />
-      <input
-        type="number"
-        placeholder="Longitude"
-        value={lng}
-        onChange={(e) => setLng(e.target.value)}
-      />
-      <button type="submit">Add Event</button>
-    </form>
+    <div>
+      <h2>Create Event</h2>
+      <form onSubmit={handleSubmit}>
+        <div>
+          <label>Event Name:</label>
+          <input
+            type="text"
+            placeholder="Event Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+        </div>
+        <div>
+          <label>Event Detail:</label>
+          <input
+            type="text"
+            placeholder="Event Detail"
+            value={detail}
+            onChange={(e) => setDetail(e.target.value)}
+          />
+        </div>
+        <div>
+          <label>Latitude:</label>
+          <input
+            type="number"
+            placeholder="Latitude"
+            value={lat}
+            readOnly // Make it read-only so the user can't manually change it
+          />
+        </div>
+        <div>
+          <label>Longitude:</label>
+          <input
+            type="number"
+            placeholder="Longitude"
+            value={lng}
+            readOnly // Make it read-only so the user can't manually change it
+          />
+        </div>
+        <button type="submit">Add Event</button>
+      </form>
+    </div>
   );
 };
 
