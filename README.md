@@ -43,6 +43,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+### Presentation
+[<img src="/PitchDeck/PitchDeckCover.png">]([https://link-to-your-URL/](https://docs.google.com/presentation/d/1rz68NWyyjNdCJne9cE4_L7QEDVHj01LanEwt9PpUVME/edit?usp=sharing))
 ### Mockup
 ![Google Maps Webapp UI Mockup](/PitchDeck/FigmaMockupV1.png)
 ### Final
