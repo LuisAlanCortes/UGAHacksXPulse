@@ -18,16 +18,7 @@
 <h3 align="center">UGAHacksX - Pulse</h3>
 
   <p align="center">
-    What's more punk rock than community? Community driven event tracker webapp, built using Flask + React 
-    <br />
-    <a href="https://github.com/LuisAlanCortes/UGAHacksXPulse"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/LuisAlanCortes/UGAHacksXPulse">View Demo</a>
-    &middot;
-    <a href="https://github.com/LuisAlanCortes/UGAHacksXPulse/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    &middot;
-    <a href="https://github.com/LuisAlanCortes/UGAHacksXPulse/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    What's more punk rock than community? Community driven event tracker webapp, built using google maps api, Flask + React, tailwind css. PostgresSQL database hosted on railway.
   </p>
 </div>
 
