@@ -11,23 +11,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/LuisAlanCortes/UGAHacksXPulse">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">UGAHacksX - Pulse</h3>
 
   <p align="center">
-    project_description
+    What's more punk rock than community? Community driven event tracker webapp, built using Flask + React 
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LuisAlanCortes/UGAHacksXPulse"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/LuisAlanCortes/UGAHacksXPulse">View Demo</a>
     &middot;
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/LuisAlanCortes/UGAHacksXPulse/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/LuisAlanCortes/UGAHacksXPulse/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -66,7 +66,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
+Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `LuisAlanCortes`, `UGAHacksXPulse`, `gmail`, `CortesLuisAlan`, `UGAHacksX - Pulse`, `project_description`, `project_license`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,14 +74,8 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,14 +97,14 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a google API Key at [https://developers.google.com/maps/documentation/javascript/get-api-key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/LuisAlanCortes/UGAHacksXPulse.git
    ```
 3. Install NPM packages
    ```sh
-   npm install
+   npm install 
    ```
 4. Enter your API in `config.js`
    ```js
@@ -118,7 +112,7 @@ This is an example of how to list things you need to use the software and how to
    ```
 5. Change git remote url to avoid accidental pushes to base project
    ```sh
-   git remote set-url origin github_username/repo_name
+   git remote set-url origin LuisAlanCortes/UGAHacksXPulse
    git remote -v # confirm the changes
    ```
 
@@ -145,7 +139,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/LuisAlanCortes/UGAHacksXPulse/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,8 +163,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors:
 
-<a href="https://github.com/github_username/repo_name/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=github_username/repo_name" alt="contrib.rocks image" />
+<a href="https://github.com/LuisAlanCortes/UGAHacksXPulse/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=LuisAlanCortes/UGAHacksXPulse" alt="contrib.rocks image" />
 </a>
 
 
@@ -187,9 +181,9 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - CortesLuisAlan@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/LuisAlanCortes/UGAHacksXPulse](https://github.com/LuisAlanCortes/UGAHacksXPulse)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,16 +202,16 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/LuisAlanCortes/UGAHacksXPulse.svg?style=for-the-badge
+[contributors-url]: https://github.com/LuisAlanCortes/UGAHacksXPulse/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LuisAlanCortes/UGAHacksXPulse.svg?style=for-the-badge
+[forks-url]: https://github.com/LuisAlanCortes/UGAHacksXPulse/network/members
+[stars-shield]: https://img.shields.io/github/stars/LuisAlanCortes/UGAHacksXPulse.svg?style=for-the-badge
+[stars-url]: https://github.com/LuisAlanCortes/UGAHacksXPulse/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LuisAlanCortes/UGAHacksXPulse.svg?style=for-the-badge
+[issues-url]: https://github.com/LuisAlanCortes/UGAHacksXPulse/issues
+[license-shield]: https://img.shields.io/github/license/LuisAlanCortes/UGAHacksXPulse.svg?style=for-the-badge
+[license-url]: https://github.com/LuisAlanCortes/UGAHacksXPulse/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png

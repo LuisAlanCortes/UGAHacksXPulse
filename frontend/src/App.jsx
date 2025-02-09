@@ -35,6 +35,7 @@ const App = () => {
   };
 
   const handleEventSubmit = (eventData) => {
+    // Add the event to the backend first
     fetch("http://127.0.0.1:5000/api/events", {
       method: "POST",
       headers: {
@@ -44,8 +45,8 @@ const App = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log("Event added:", data);
-        setIsModalOpen(false);
+        setEvents((prevEvents) => [...prevEvents, data]);
+        setIsModalOpen(false); 
       });
   };
 
