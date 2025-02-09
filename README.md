@@ -50,6 +50,26 @@
 ### Final
 ![Google Maps Webapp UI Actual](/PitchDeck/App.png)
 
+## Inspiration
+Bring power to the people by streamlining community discovery. Community is extremely important in this trying times. I imagined a web-app likes Waze, community posted events, to keep people informed of their community.
+## What it does
+Map and database that tracks events, clicking the map will create a marker. Pressing create event then prompts you to write the events name and detail. 
+## How I built it
+Python Flask for the back-end, connecting to a PostgresSQL Database hosted on Railway. The front-end is created with Vite + React, using Tailwind CSS for styling. Utilizing the Google Maps API for an accurate map for users to use.
+## Challenges we ran into
+In the modern realm of Computer Science, we walk a tight rope with AI. This project showed me how rough ChatGPT and other LLMs can be in the heat of development. Trying to debug an LLMs errors is like trying to catch your own tail. 
+## Accomplishments that I'm proud of
+I did not know anything about web development besides basic HTML and CSS before a day ago. I now know enough to spin up another project in half the time. Tailwind is gorgeous and much easier to use then default CSS, making the application look professional and real.
+## What we learned
+Everything to begin my web development journey. That I am actually a developer, even if, for this project I shackled myself to an AI with late stage memory issues. 
+## What's next for Pulse
+This app is unfortunately missing a lot that would make me truly proud of it. 
+- [ ] Host Entirely on Railway
+- [ ] Utilize Google Maps API advanced markers
+- [ ] AI detection of event type and details
+- [ ] AI judging of event age and popularity
+- [ ] User accounts
+- [ ] User Voting
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
