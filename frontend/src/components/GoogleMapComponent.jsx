@@ -33,7 +33,7 @@ const GoogleMapComponent = ({ events, setLat, setLng }) => {
               lat: clickedLatLng.lat,
               lng: clickedLatLng.lng,
             }}
-            icon="http://maps.google.com/mapfiles/ms/icons/blue-dot.png" // Optional: Different icon for clicked marker
+            icon="https://maps.google.com/mapfiles/ms/icons/blue-dot.png" // Optional: Different icon for clicked marker
           />
         )}
       </GoogleMap>
