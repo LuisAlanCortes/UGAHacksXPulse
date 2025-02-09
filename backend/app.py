@@ -38,6 +38,23 @@ def get_events():
     event_list = [{"id": e.id, "name": e.name, "detail": e.detail, "lat": e.lat, "lng": e.lng} for e in events]
     return jsonify(event_list)
 
+@app.route("/edit_event/<int:event_id>", methods=["PUT"])
+def edit_event(event_id):
+    event = Event.query.get(event_id)
+    
+    if not event:
+        return jsonify({"message": "Event not found!"}), 404
+    
+    data = request.json
+    
+    event.name = data.get("name", event.name)
+    event.detail = data.get("detail", event.detail)
+    event.lat = data.get("lat", event.lat)
+    event.lng = data.get("lng", event.lng)
+    
+    db.session.commit()
+    
+    return jsonify({"message": "Event Updated!", "event": data}), 200
 
 
 if __name__ == "__main__":

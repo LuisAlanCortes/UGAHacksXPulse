@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import axios from 'axios';
 import EventForm from "./components/EventForm";
 import GoogleMap from "./components/GoogleMap";
 import Sidebar from "./components/Sidebar";
@@ -25,6 +26,16 @@ const App = () => {
     console.log("Add event clicked! Opening event form...");
     // Implement logic to show an add event form
   };
+
+  const updateEvent = async (eventId, updatedEventData) => {
+    try {
+      const response = await axios.put(`http://127.0.0.1:5000/edit_event/${eventId}`, updatedEventData);
+      console.log('Event updated successfully:', response.data);
+    } catch (error) {
+      console.error('There was an error updating the event:', error);
+    }
+  };
+
   return (
     <div>
       <Sidebar events={events} />

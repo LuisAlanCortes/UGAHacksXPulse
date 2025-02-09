@@ -3,7 +3,7 @@ import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 const googleApiKey = import.meta.env.VITE_GOOGLE_API_KEY; 
 
 const GoogleMapComponent = ({ events }) => {
-  const center = { lat: 40.7128, lng: -74.0060 }; 
+  const center = { lat: 33.948006, lng: -83.377319 }; 
 
   return (
     <LoadScript googleMapsApiKey={googleApiKey}>
