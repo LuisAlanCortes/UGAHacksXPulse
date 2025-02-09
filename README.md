@@ -96,6 +96,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/LuisAlanCortes/UGAHacksXPulse.git
    ```
+4. Run the repo in a .venv
 5. Install py packages
    ```py
    pip install flask flask-cors flask-sqlalchemy flask-migrate python-dotenv
