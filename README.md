@@ -122,6 +122,7 @@ To get a local copy up and running follow these simple steps.
    npm run dev
    ```
 10. Open http://localhost:5174/ to view the project
+11. P.S: If you have dev eyes like me, you can enable dark mode by uncommenting the json and single line to activate it in GoogleMapComponent.jsx
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
