@@ -62,8 +62,8 @@ ChatGPT is a mess for coding when you are actively trying to build an entire pro
 Railway for some reason just did not spin-up my first docker container of PostGresSQL, and the only fix was starting a new container. That took 3 hours.
 # Accomplishments that I'm proud of
 I did not know anything about web development besides basic HTML and CSS before a day ago. I now know enough to spin up another project in half the time. Tailwind is gorgeous and much easier to use then default CSS, making the application look professional and real.
-# What we learned
-Everything to begin my web development journey. That I am actually a developer, even if, for this project I shackled myself to an AI with late stage memory issues. 
+# What I learned
+Everything to begin my web development journey. That I am actually a developer, even if, for this project I shackled myself to an AI with late stage memory issues. I am capable of being a great developer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
