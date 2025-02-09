@@ -9,8 +9,6 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
-
 <h3 align="center">UGAHacksX - Pulse</h3>
 
   <p align="center">
@@ -50,19 +48,21 @@
 ### Final
 ![Google Maps Webapp UI Actual](/PitchDeck/App.png)
 
-# Inspiration
+#### Inspiration
 Bring power to the people by streamlining community discovery. Community is extremely important in this trying times. I imagined a web-app likes Waze, community posted events, to keep people informed of their community.
-# What it does
+#### What it does
 Map and database that tracks events, clicking the map will create a marker. Pressing create event then prompts you to write the events name and detail. 
-# How I built it
+#### How I built it
 Python Flask for the back-end, connecting to a PostgresSQL Database hosted on Railway. The front-end is created with Vite + React, using Tailwind CSS for styling. Utilizing the Google Maps API for an accurate map for users to use.
-# Challenges we ran into
-In the modern realm of Computer Science, we walk a tight rope with AI. This project showed me how rough ChatGPT and other LLMs can be in the heat of development. Trying to debug an LLMs errors is like trying to catch your own tail. Cobbled together everything with it. Lots of fighting and fiddling. Took a lot of my previous development experience (C++, Java, Python) to troubleshoot on my own outside the one-track mind of LLMs. Many times did GPT just want me to create additional functions to debug when I knew it was a simple typo of an include somewhere. Used all the web-dev tools for the first time this weekend. It is a sign of how fast this industry can change. Most tutorials for both Vite + React & Tailwind are now out of date for their setup. They deprecated their old spin-up methods, and just yell at you for having deprecated installs. 
-ChatGPT is a mess for coding when you are actively trying to build an entire project with it. Much better for small snippets. 
+#### Challenges I ran into
+In the modern realm of Computer Science, we walk a tight rope with AI. This project showed me how rough ChatGPT and other LLMs can be in the heat of development. Trying to debug an LLMs errors is like trying to catch your own tail. Cobbled together everything with it. Lots of fighting and fiddling. Took a lot of my previous development experience (C++, Java, Python) to troubleshoot on my own outside the one-track mind of LLMs. Many times did GPT just want me to create additional functions to debug when I knew it was a simple typo of an include somewhere. Much better for small snippets. 
+
+Used all the web-dev tools for the first time this weekend. It is a sign of how fast this industry can change. Most tutorials for both Vite + React & Tailwind are now out of date for their setup. They deprecated their old spin-up methods, and just yell at you for having deprecated installs.
+
 Railway for some reason just did not spin-up my first docker container of PostGresSQL, and the only fix was starting a new container. That took 3 hours.
-# Accomplishments that I'm proud of
+#### Accomplishments that I'm proud of
 I did not know anything about web development besides basic HTML and CSS before a day ago. I now know enough to spin up another project in half the time. Tailwind is gorgeous and much easier to use then default CSS, making the application look professional and real.
-# What I learned
+#### What I learned
 Everything to begin my web development journey. That I am actually a developer, even if, for this project I shackled myself to an AI with late stage memory issues. I am capable of being a great developer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -169,6 +169,8 @@ Luis Cortes - CortesLuisAlan@gmail.com
 Project: [This Github](https://github.com/LuisAlanCortes/UGAHacksXPulse)
 
 Pitch Deck: [Google Slides](https://docs.google.com/presentation/d/1rz68NWyyjNdCJne9cE4_L7QEDVHj01LanEwt9PpUVME/edit?usp=sharing)
+
+Devpost: [(Official Submission)](https://devpost.com/software/pulse-bilgt6)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
