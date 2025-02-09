@@ -161,7 +161,9 @@ This app is unfortunately missing a lot that would make me truly proud of it.
 
 Luis Cortes - CortesLuisAlan@gmail.com
 
-Project Link: [https://github.com/LuisAlanCortes/UGAHacksXPulse](https://github.com/LuisAlanCortes/UGAHacksXPulse)
+Project: [This Github](https://github.com/LuisAlanCortes/UGAHacksXPulse)
+
+Pitch Deck: [Google Slides](https://docs.google.com/presentation/d/1rz68NWyyjNdCJne9cE4_L7QEDVHj01LanEwt9PpUVME/edit?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
