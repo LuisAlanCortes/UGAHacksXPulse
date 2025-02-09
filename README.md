@@ -57,7 +57,9 @@ Map and database that tracks events, clicking the map will create a marker. Pres
 ## How I built it
 Python Flask for the back-end, connecting to a PostgresSQL Database hosted on Railway. The front-end is created with Vite + React, using Tailwind CSS for styling. Utilizing the Google Maps API for an accurate map for users to use.
 ## Challenges we ran into
-In the modern realm of Computer Science, we walk a tight rope with AI. This project showed me how rough ChatGPT and other LLMs can be in the heat of development. Trying to debug an LLMs errors is like trying to catch your own tail. 
+In the modern realm of Computer Science, we walk a tight rope with AI. This project showed me how rough ChatGPT and other LLMs can be in the heat of development. Trying to debug an LLMs errors is like trying to catch your own tail. Cobbled together everything with it. Lots of fighting and fiddling. Took a lot of my previous development experience (C++, Java, Python) to troubleshoot on my own outside the one-track mind of LLMs. Many times did GPT just want me to create additional functions to debug when I knew it was a simple typo of an include somewhere. Used all the web-dev tools for the first time this weekend. It is a sign of how fast this industry can change. Most tutorials for both Vite + React & Tailwind are now out of date for their setup. They deprecated their old spin-up methods, and just yell at you for having deprecated installs. 
+ChatGPT is a mess for coding when you are actively trying to build an entire project with it. Much better for small snippets. 
+Railway for some reason just did not spin-up my first docker container of PostGresSQL, and the only fix was starting a new container. That took 3 hours.
 ## Accomplishments that I'm proud of
 I did not know anything about web development besides basic HTML and CSS before a day ago. I now know enough to spin up another project in half the time. Tailwind is gorgeous and much easier to use then default CSS, making the application look professional and real.
 ## What we learned
