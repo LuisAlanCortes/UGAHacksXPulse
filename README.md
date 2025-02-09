@@ -71,7 +71,12 @@ Everything to begin my web development journey. That I am actually a developer, 
 
 ### Built With
 
-* [![React][React.js]][React-url]
+* Flask
+* PostgressSQL
+* Railway (Hosts ^)
+* Vite + React
+* TailwindCSS
+* Google Maps API
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
