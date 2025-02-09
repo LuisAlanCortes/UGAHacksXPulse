@@ -18,12 +18,12 @@ const GoogleMapComponent = ({ events, setLat, setLng }) => {
 
   return (
     <LoadScript googleMapsApiKey={googleApiKey}>
-      <GoogleMap
-        mapContainerStyle={{ width: "100%", height: "400px" }}
-        zoom={17}
-        center={center}
-        onClick={handleMapClick}
-      >
+    <GoogleMap
+      mapContainerStyle={{ width: "100vw", height: "100vh" }} 
+      zoom={17}
+      center={center}
+      onClick={handleMapClick}
+    >
         {events.map((event, index) => (
           <Marker key={index} position={{ lat: event.lat, lng: event.lng }} />
         ))}

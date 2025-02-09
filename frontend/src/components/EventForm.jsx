@@ -1,12 +1,8 @@
-import React, { useState } from "react";
-import GoogleMap from "./GoogleMap";
-import GoogleMapComponent from "./GoogleMap";
+import { useState } from "react";
 
-const EventForm = () => {
+const EventForm = ({ lat, lng, onSubmit }) => {
   const [name, setName] = useState("");
   const [detail, setDetail] = useState("");
-  const [lat, setLat] = useState("");
-  const [lng, setLng] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -14,71 +10,40 @@ const EventForm = () => {
     const eventData = {
       name,
       detail,
-      lat: parseFloat(lat),
-      lng: parseFloat(lng),
+      lat,
+      lng,
     };
 
-    fetch("http://127.0.0.1:5000/api/events", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(eventData),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log("Event added:", data);
-        // Reset form
-        setName("");
-        setDetail("");
-        setLat("");
-        setLng("");
-      });
+    // Call the onSubmit function passed as prop
+    onSubmit(eventData);
+
+    // Reset form
+    setName("");
+    setDetail("");
   };
 
   return (
-    <div>
-      <h2>Create Event</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>Event Name:</label>
-          <input
-            type="text"
-            placeholder="Event Name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </div>
-        <div>
-          <label>Event Detail:</label>
-          <input
-            type="text"
-            placeholder="Event Detail"
-            value={detail}
-            onChange={(e) => setDetail(e.target.value)}
-          />
-        </div>
-        <div>
-          <label>Latitude:</label>
-          <input
-            type="number"
-            placeholder="Latitude"
-            value={lat}
-            readOnly // Make it read-only so the user can't manually change it
-          />
-        </div>
-        <div>
-          <label>Longitude:</label>
-          <input
-            type="number"
-            placeholder="Longitude"
-            value={lng}
-            readOnly // Make it read-only so the user can't manually change it
-          />
-        </div>
-        <button type="submit">Add Event</button>
-      </form>
-    </div>
+    <form onSubmit={handleSubmit}>
+      <input
+        type="text"
+        placeholder="Event Name"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+        required
+      />
+      <input
+        type="text"
+        placeholder="Event Detail"
+        value={detail}
+        onChange={(e) => setDetail(e.target.value)}
+        required
+      />
+      <div className="mt-2">
+        <button type="submit" className="bg-blue-500 text-white p-2 rounded">
+          Add Event
+        </button>
+      </div>
+    </form>
   );
 };
 

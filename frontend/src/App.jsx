@@ -1,16 +1,16 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import EventForm from "./components/EventForm";
-import GoogleMap from "./components/GoogleMapComponent";
+import GoogleMapComponent from "./components/GoogleMapComponent";
 import Sidebar from "./components/Sidebar";
 import BottomNav from "./components/BottomNav";
-import Modal from "./components/Modal"; // Import modal component
+import Modal from "./components/Modal";
 
 const App = () => {
   const [events, setEvents] = useState([]);
-  const [isModalOpen, setIsModalOpen] = useState(false); // Modal state
-  const [selectedLat, setSelectedLat] = useState(null); // Selected lat
-  const [selectedLng, setSelectedLng] = useState(null); // Selected lng
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedLat, setSelectedLat] = useState(null);
+  const [selectedLng, setSelectedLng] = useState(null);
 
   useEffect(() => {
     fetch("http://127.0.0.1:5000/api/events")
@@ -24,14 +24,14 @@ const App = () => {
 
   const handleAddEvent = () => {
     if (selectedLat && selectedLng) {
-      setIsModalOpen(true); // Open modal
+      setIsModalOpen(true);
     } else {
       alert("Please select a location on the map.");
     }
   };
 
   const closeModal = () => {
-    setIsModalOpen(false); // Close modal
+    setIsModalOpen(false);
   };
 
   const handleEventSubmit = (eventData) => {
@@ -45,21 +45,19 @@ const App = () => {
       .then((response) => response.json())
       .then((data) => {
         console.log("Event added:", data);
-        setIsModalOpen(false); // Close modal after event is added
+        setIsModalOpen(false);
       });
   };
 
   return (
     <div>
       <Sidebar events={events} />
-      <GoogleMap
+      <GoogleMapComponent
         setLat={setSelectedLat}
         setLng={setSelectedLng}
         events={events}
       />
       <BottomNav onExplore={handleExplore} onAddEvent={handleAddEvent} />
-
-      {/* Modal for event form */}
       <Modal isOpen={isModalOpen} onClose={closeModal}>
         <h2 className="text-lg font-bold mb-4">Add New Event</h2>
         <EventForm
